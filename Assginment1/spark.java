@@ -39,7 +39,7 @@ import scala.Tuple2;
  * sparkML.jar \ /share/movie/small/ \ week5_out/
  *
  *
- * @author zhouy
+ * @author Mengyu L
  *
  */
 public class MovieLensLarge {
