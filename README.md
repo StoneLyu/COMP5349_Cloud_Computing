@@ -8,5 +8,4 @@ Outcomes in COMP5349 Cloud Computing
 
 This lecture focuses on the Big Data processing and Distributed Computing.  
 `Hadoop`, `YARN` and `Spark` are required for running the two assignments.  
-
-You can find more details in the `README` files in each folder.
+**Please check the README file in each folder for more detials**

@@ -20,7 +20,7 @@ CSV的每一行代表一条趋势视频的记录。
 
 ## 3. analysis workload description
 
-### 3.1 category and trending correlation(相互关系)
+### 3.1 category and trending correlation
 
 某些视频在多个国家都是趋势视频（很火热），我们有兴趣去知道在分类和重叠的趋势视频之间是否有联系。  
 如：UK和CA的用户在音乐分类上有共同的兴趣，但是在体育分类上有不同的兴趣，我们可能会看到UK的热门音乐的3%会出现在CA的热门音乐里。
@@ -45,13 +45,13 @@ for instance, you may choose different delimiter character, or you may show fold
 ## 4. coding and execution requirement
 
 你的implement应该利用相应框架提供的特性/功能  
-尤其(in particular)，你应并行化大部分操作。  
+注意，你应并行化大部分操作。  
 Hadoop的实现应该运行在伪分布式模式。  
-Spark实现应该运行在单机的 standalone cluster(独立集群) or YARN cluster(YARN集群)上  
+Spark实现应该运行在单机的 standalone cluster or YARN cluster上  
 
 ## 5. compliance statement
 
-### 5.1 评价标准：
+### 5.1 评分标准：
 
 - workload 1:
 
